@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;800&display=swap');
+
 *,
 *::after,
 *::before {
@@ -13,4 +15,6 @@ html {
 body {
   background-color: #ccc;
   padding: 4rem 2rem;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 300;
 }

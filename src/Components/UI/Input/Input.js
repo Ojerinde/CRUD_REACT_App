@@ -1,8 +1,7 @@
 import React from "react";
 import classes from "./Input.module.css";
 
-const Input = (props) => {
-
+const Input = React.forwardRef((props, ref) => {
   return (
     <>
       <div className={classes.form_group}>
@@ -10,22 +9,15 @@ const Input = (props) => {
           {props.label}
         </label>
         <input
-          className={`${classes.form_input} ${
-            props.isValid === false ? classes.invalid : ""
-          } `}
+          className={classes.form_input}
           type={props.type}
           placeholder={props.placeholder}
           id={props.id}
           name={props.name}
-          onChange={props.onChange}
-          onBlur={props.onBlur}
-          value={props.value}
+          ref={ref}
         />
       </div>
-      {props.isValid === false && <p className={classes.invalid_input}>Invalid Input</p>}
     </>
   );
-};
+});
 export default Input;
-
-
