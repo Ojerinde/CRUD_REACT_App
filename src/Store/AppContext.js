@@ -6,5 +6,6 @@ const AppContext = React.createContext({
   createPhone: (body) => {},
   updatePhone: (id) => {},
   deletePhone: (id) => {},
+  searchPhone: (name) => {},
 });
 export default AppContext

@@ -1,0 +1,22 @@
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 768px) {
+  .box {
+   flex-direction: column;
+  }
+}
+.form_box {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .form_box {
+    width: 100%;
+  }
+}

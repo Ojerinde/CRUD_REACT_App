@@ -1,0 +1,23 @@
+.box {
+  flex-basis: 25%;
+}
+@media only screen and (max-width: 900px) {
+  .box {
+    flex-basis: 35%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 70%;
+    margin-bottom: 4rem;
+  }
+}
+.ul {
+  list-style: none;
+}
+.p {
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgb(81, 21, 21);
+  margin-bottom: 1.5rem;
+}

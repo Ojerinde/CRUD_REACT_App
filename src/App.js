@@ -6,7 +6,7 @@ import DeletePage from "./Components/DeletePage/DeletePage";
 import UpdatePage from "./Components/Update/UpdatePage";
 import AppContextProvider from "./Store/AppContextProvider";
 
-const App = (props) => {
+const App = () => {
   return (
     <AppContextProvider>
       <Routes>

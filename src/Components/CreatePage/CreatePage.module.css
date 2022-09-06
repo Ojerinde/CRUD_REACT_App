@@ -1,7 +1,18 @@
 .box {
-    width: 40%;
-    margin: 4rem auto;
+  width: 40%;
+  margin: 4rem auto;
+}
+@media only screen and (max-width: 900px) {
+  .box {
+    width: 55%;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 70%;
+  }
+}
 .btn_box {
   width: 100%;
   text-align: center;

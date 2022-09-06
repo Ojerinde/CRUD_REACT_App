@@ -1,0 +1,10 @@
+.box {
+  width: 60%;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 90%;
+    
+  }
+}

@@ -1,0 +1,130 @@
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .box {
+   flex-direction: column;
+    
+  }
+}
+.form_box {
+  flex-basis: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 900px) {
+  .form_box {
+    flex-basis: 70%;
+  }
+}
+.form {
+  flex-basis: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 900px) {
+  .form {
+     flex-basis: 100%;
+   }
+ }
+.form_row {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 900px) {
+  .form_row {
+     flex-basis: 70%;
+   }
+ }
+.form_row label {
+  flex-basis: 10%;
+  color: rgba(67, 9, 9, 0.875);
+  font-weight: bold;
+  font-size: var(--label-font);
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 900px) {
+  .form_row label{
+     flex-basis: 20%;
+   }
+ }
+.form_row input {
+  flex-basis: 80%;
+  font-size: var(--input-font);
+  color: rgb(54, 53, 53);
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.4rem;
+  border: 0.18rem solid transparent;
+  margin-right: 4rem;
+}
+@media only screen and (max-width: 900px) {
+  .form_row input{
+     flex-basis: 80%;
+     margin-right: 2rem;
+   }
+ }
+.form_row input:focus {
+  outline: none;
+  border: 0.18rem solid rgb(191, 83, 11);
+}
+.form_row input:hover {
+  border: 0.18rem solid rgb(191, 83, 11, 0.7);
+}
+
+.form_row input::-webkit-input-placeholder {
+  color: rgba(50, 14, 14, 0.734);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.form_row input.invalid {
+  border: 0.15rem solid rgba(243, 69, 16, 0.737);
+}
+
+.button {
+  padding: .5rem 1rem;
+  font-size: 1.6rem;
+  background-color: rgb(233, 64, 64);
+  color: rgb(35, 34, 34);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2rem;
+  border: .1rem solid rgb(97, 95, 95);
+  transition: all .3s;
+}
+
+.button:hover {
+  background-color:rgb(248, 99, 99);
+  
+}
+@media only screen and (max-width: 900px) {
+  .button{
+     padding: .4rem .7rem;
+     font-size: 1.3rem;
+   }
+ }
+ @media only screen and (max-width: 768px) {
+  .button {
+  }
+}
+/* .invalid_input {
+    color: rgba(254, 11, 27, 0.919);
+    font-size: 1.5rem;
+    padding: 0;
+    margin: -1.4rem 0 0 -9rem;
+    font-style: italic;
+    font-weight: bold;
+  } */
+@media only screen and (max-width: 768px) {
+  .invalid_input {
+    margin: -1rem 0 0 -6rem;
+    font-size: 1.3rem;
+  }
+}

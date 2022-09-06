@@ -4,7 +4,7 @@ import classes from "./Input.module.css";
 const Input = React.forwardRef((props, ref) => {
   return (
     <>
-      <div className={classes.form_group}>
+      <div className={`${props.className || classes.form_group}`}>
         <label className={classes.form_label} htmlFor={props.id}>
           {props.label}
         </label>

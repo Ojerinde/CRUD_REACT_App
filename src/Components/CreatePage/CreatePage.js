@@ -23,7 +23,7 @@ const CreatePage = (props) => {
     // Calling a create method from the context
 
     ctx.createPhone({
-      name: nameRef.current.value,
+      fullName: nameRef.current.value,
       price: `$${price.toFixed(2)}`,
       image: imageRef.current.value,
     });

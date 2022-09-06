@@ -1,0 +1,10 @@
+
+.li {
+    width: 85%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+    padding: .8rem 1.5rem;
+    border: .1rem inset rgb(245, 77, 77);
+    margin-bottom: .3rem;
+}

@@ -11,7 +11,16 @@
 html {
   font-size: 62.5%;
 }
-
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 45%;
+  }
+}
 body {
   background-color: #ccc;
   padding: 4rem 2rem;
