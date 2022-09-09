@@ -1,0 +1,17 @@
+.p {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-style: oblique;
+    color: rgb(176, 69, 69);
+    text-align: center;
+}
+ 
+.icon {
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    height: 1.2rem;
+    width: 1.2rem;
+    color: rgb(65, 64, 64);
+}

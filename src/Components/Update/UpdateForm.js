@@ -5,7 +5,7 @@ import classes from "./UpdateForm.module.css";
 import { useContext, useRef } from "react";
 import AppContext from "../../Store/AppContext";
 
-const UpdateForm = () => {
+const UpdateForm = (props) => {
 const ctx = useContext(AppContext)
 
   // Getting the form input
@@ -16,20 +16,26 @@ const ctx = useContext(AppContext)
   const submitHandler = (e) => {
     e.preventDefault();
     const price = +newPriceRef.current.value;
+
     // Calling a create method from the 
-    
     if (ctx.phones.length === 0 ) return alert`No phones to update`
 
+    // Enabling the modal
+    props.onClick()
+
+    // Calling the update method in the context
     ctx.updatePhone({
       id: +idNumRef.current.value,
       new_price: `$${price.toFixed(2)}`,
       new_name: newNameRef.current.value,
     });
 
+    // Clearing the input fields
     idNumRef.current.value = "";
     newPriceRef.current.value = "";
     newNameRef.current.value = "";
   };
+  
   return (
     <Card className={classes.box}>
       <form onSubmit={submitHandler}>

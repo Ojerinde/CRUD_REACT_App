@@ -20,6 +20,7 @@ const PhoneDetails = () => {
       setCurPage((curPage) => curPage - 1);
     }
   };
+  
   const rightArrowHandler = () => {
     if (curPage === ctx.phones.length - 1) {
       setCurPage(0);

@@ -2,15 +2,19 @@ import { useContext, useEffect, useState } from "react";
 import AppContext from "../../Store/AppContext";
 import Card from "../UI/Card/Card";
 import ListItem from './ListItem'
-import classes from "./SearchBox.module.css";
+import classes from "./ListsBox.module.css";
 
-const SearchBox = () => {
+const ListsBox = () => {
+  // Getting the list of phones from the context.
   const ctx = useContext(AppContext);
   const { phones } = ctx;
+
   const [phoneList, setPhoneList] = useState(phones);
+
   useEffect(() => {
-    setPhoneList(ctx.phones);
-  }, [ctx]);
+    setPhoneList(phones);
+  }, [phones]);
+
   return (
     <Card className={classes.box}>
       <p className={classes.p}>All available phones</p>
@@ -22,4 +26,4 @@ const SearchBox = () => {
     </Card>
   );
 };
-export default SearchBox;
+export default ListsBox;
