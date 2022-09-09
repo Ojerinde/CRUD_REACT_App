@@ -1,37 +1,37 @@
 import React, { useReducer } from "react";
 import AppContext from "./AppContext";
 
-// const defaultPhone = {
-//   phones: [
-//     {
-//       fullName: "Infinix Hot 10",
-//       price: "$200.00",
-//       id:1,
-//       image:
-//         "https://fdn2.gsmarena.com/vv/pics/infinix/infinix-hot10-2.jpg",
-//     },
-//     {
-//       fullName: "Tecno Phantom",
-//       price: "$350.00",
-//       id:2,
-//       image:
-//         "https://www.pointekonline.com/wp-content/uploads/2021/06/Tecno-Phantom-X-DroidAfrica-main-600x600-1.jpg",
-//     },
-//     {
-//       fullName: "Samsung",
-//       price: "$500.00",
-//       id:3,
-//       image:
-//         "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
-//     },
-//   ],
-//   totalAmount: 3,
-// };
-
 const defaultPhone = {
-  phones: [],
-  totalAmount: 0,
+  phones: [
+    {
+      fullName: "Infinix Hot 10",
+      price: "$200.00",
+      id:1,
+      image:
+        "https://fdn2.gsmarena.com/vv/pics/infinix/infinix-hot10-2.jpg",
+    },
+    {
+      fullName: "Tecno Phantom",
+      price: "$350.00",
+      id:2,
+      image:
+        "https://www.pointekonline.com/wp-content/uploads/2021/06/Tecno-Phantom-X-DroidAfrica-main-600x600-1.jpg",
+    },
+    {
+      fullName: "Samsung",
+      price: "$500.00",
+      id:3,
+      image:
+        "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
+    },
+  ],
+  totalAmount: 3,
 };
+
+// const defaultPhone = {
+//   phones: [],
+//   totalAmount: 0,
+// };
 
 const phoneReducer = (state, action) => {
   if (action.type === "CREATE_PHONE") {
