@@ -1,0 +1,22 @@
+
+.form {
+    width: 65%;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+}
+
+.form button{
+    margin-top: -1.5rem;
+}
+
+.ul {
+    margin-top: 3.5rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.li {
+    width: fit-content;
+    margin: 1.5rem;
+}
