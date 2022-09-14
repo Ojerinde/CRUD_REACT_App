@@ -1,7 +1,6 @@
 import React, { useContext, useRef, useState } from "react";
 
 import Card from "../UI/Card/Card";
-import Header from "../UI/Header/Header";
 import Input from "../UI/Input/Input";
 import Button from "../UI/Button/Button";
 
@@ -115,7 +114,6 @@ const CreatePage = (props) => {
   return (
     <>
       {modal && <CreatePageModal onClick={closeModal} />}
-      <Header></Header>
       <Card className={classes.box}>
         <form onSubmit={submitHandler}>
           <Input

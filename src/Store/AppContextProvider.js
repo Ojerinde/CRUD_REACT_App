@@ -17,60 +17,60 @@ const defaultPhone = {
         "https://www.pointekonline.com/wp-content/uploads/2021/06/Tecno-Phantom-X-DroidAfrica-main-600x600-1.jpg",
     },
     {
-      fullName: "Samsung",
+      fullName: "Samsung s22 Ultra",
       price: "$500.00",
       id: 3,
       image:
-        "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
+        "https://media.wired.com/photos/6202b99c2c286ef2d70b5b0a/master/pass/Gear-Samsung-Galaxy-S22-Ultra.jpg",
     },
     {
-      fullName: "iPhone",
+      fullName: "iPhone 13",
       price: "$570.00",
       id: 4,
       image:
-        "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
+        "https://uandu.com.ng/wp-content/uploads/2021/12/Apple-iPhone-13-Pro-Max-539.jpg",
     },
     {
-      fullName: "Google Pixel",
+      fullName: "Google Pixel 7",
       price: "$520.00",
       id: 5,
       image:
-        "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
+        "https://www.electrorates.com/blogimg/Google_Pixel_7_XL.png",
     },
     {
       fullName: "Nokia",
       price: "$700.00",
       id: 6,
       image:
-        "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
+        "https://cdn11.bigcommerce.com/s-d9fb5mh9xf/images/stencil/720x720/products/552/737/nokia-G50-OceanBlue-front_back-int__82786.1631718019.png",
     },
     {
-      fullName: "Redmi",
+      fullName: "Redmi 11 Ultra",
       price: "$400.00",
       id: 7,
       image:
-        "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
+        "https://www.gizmochina.com/wp-content/uploads/2021/02/mi11ultra-white.jpg",
     },
     {
       fullName: "Oppo",
       price: "$320.00",
       id: 8,
       image:
-        "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
+        "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x5-pro-en/middlebanner/findx5-pro-mobile.jpg.thumb.webp",
     },
     {
-      fullName: "Shark",
-      price: "$380.00",
+      fullName: "Black Shark",
+      price: "$680.00",
       id: 9,
       image:
-        "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
+        "https://fdn2.mobgsm.com/vv/pics/xiaomi/xiaomi-black-shark-3-pro-1.jpg",
     },
     {
-      fullName: "Itel",
+      fullName: "Itel s17",
       price: "$150.00",
       id: 10,
       image:
-        "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg",
+        "https://i0.wp.com/www.purchgadgets.com/wp-content/uploads/2021/10/S17.gif?fit=1080%2C1080&ssl=1",
     },
   ],
   totalAmount: 10,

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import Card from "../UI/Card/Card";
-import Header from "../UI/Header/Header";
 import ListsBox from "./ListsBox";
 import UpdateForm from "./UpdateForm";
 import classes from "./UpdatePage.module.css";
@@ -19,7 +18,6 @@ const UpdatePage = () => {
   return (
     <>
       {modal && <UpdatePageModal onClick={modalCloseHandler} />}
-      <Header></Header>
       <Card className={classes.box}>
         <ListsBox />
         <div className={classes.form_box}>

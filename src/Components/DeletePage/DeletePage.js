@@ -1,7 +1,6 @@
 import React, { useContext, useRef, useState } from "react";
 
 import Card from "../UI/Card/Card";
-import Header from "../UI/Header/Header";
 import ListsBox from "./ListsBox";
 import AppContext from "../../Store/AppContext";
 import classes from "./DeletePage.module.css";
@@ -40,7 +39,6 @@ const DeletePage = (props) => {
   return (
     <>
       {modal && <DeletePageModal onClick={modalCloseHandler} />}
-      <Header></Header>
       <Card className={classes.box}>
         <ListsBox />
         <div className={classes.form_box}>

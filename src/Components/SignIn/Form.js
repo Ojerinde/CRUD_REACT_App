@@ -1,25 +1,32 @@
 import { useEffect } from "react";
-import { auth, provider, signInWithPopup, onAuthStateChanged } from "../../config";
+import {
+  auth,
+  provider,
+  signInWithRedirect,
+  onAuthStateChanged,
+} from "../../config";
 
 import Card from "../UI/Card/Card";
 import classes from "./Form.module.css";
 
 const Form = (props) => {
-  const loginHandler = async (e) => {
+  const loginHandler = (e) => {
     e.preventDefault();
-    try {
-      const result = await signInWithPopup(auth, provider);
-      console.log(result);
-    } catch (e) {
-      console.log(e);
-    }
+    signInWithRedirect(auth, provider)
+      .then((result) => {
+        console.log(result);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
+
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
-        props.onSign(true)
+        props.onSign(true);
       } else {
-        props.onSign(false)
+        props.onSign(false);
       }
     });
   }, [props]);
