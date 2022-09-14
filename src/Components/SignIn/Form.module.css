@@ -1,0 +1,26 @@
+.box {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.div {
+  font-size: 3rem;
+  color: rgb(47, 46, 46);
+  margin-bottom: 1rem;
+}
+.button {
+  font-size: 1.8rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  color: brown;
+  font-weight: 700;
+  padding: 0.8rem 1.3rem;
+  border: 0.2rem solid brown;
+  transition: all .3s;
+}
+.button:hover {
+  background-color: rgba(224, 217, 217, 0.9);
+  cursor: pointer;
+  border: 0.2rem solid rgba(254, 6, 6, 0.823);
+  color: rgba(254, 6, 6, 0.823);
+}
