@@ -84,6 +84,7 @@ The application make use of firebase authentication and so you will have to veri
 
 * Create Page:
   * This is where you create a phone
+  * On clicking on the backdrop, you will be redirected to the home page
   
 * Update Page:
   * This is where you update a phone using its ID and also passing new details
