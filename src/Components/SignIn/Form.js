@@ -24,6 +24,7 @@ const Form = (props) => {
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
+        console.log(user)
         props.onSign(true);
       } else {
         props.onSign(false);

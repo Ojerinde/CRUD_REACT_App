@@ -31,7 +31,7 @@ const SearchPhones = () => {
           type="text"
           ref={searchRef}
         />
-        <Button type="submit">SeArCH!</Button>
+        <Button type="submit">Search 🔎</Button>
       </form>
       <ul className={classes.ul}>
         {searchedPhones.map((phone) => {
