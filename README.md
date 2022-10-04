@@ -11,7 +11,7 @@
 ## Introduction
 
 As a student of AltSchool Africa, CRUDify APP is an application I built using many of the React concepts 
-I was taught and some concepts which I reserched on.
+I was taught and some concepts which I researched on. The app performs all CRUD operations, it uses regular expression to perform a search ignoring the case.
 
 Currently, the application does not make use of any database but hardcoded lists of phones.
 
@@ -20,6 +20,11 @@ The application does the following,
 * Creates phone
 * Updates phone
 * Deletes phone
+
+Some concepts I used includes,
+* Routing
+* Hooks(useContext, useState, useReducer, useEffect, and others)
+* Firebase Deployment and Authentication.
 
 ## Main Files: Project Structure
 
@@ -65,10 +70,10 @@ npm start
 By default, the frontend will run on `localhost:3000`. 
 
 ### Authentication
-On the first page, there is a sign in button, clicking on it will redirect you to a page where you will verify 
+On the first page, there is a sign in button, clicking on it will redirect you to a page where you will verify your
 gmail account.
 
-The application make use of firebase authentication and so you will have to verify your gmail account before you can access the application
+The application make use of firebase authentication and so you will have to verify your gmail account before you can access the application.
 
 ## How the APP works
 * Header :
@@ -93,7 +98,7 @@ The application make use of firebase authentication and so you will have to veri
   * This is where you delete  a phone using its ID
   
 ## Deployment
-The app is deployed on Firebase
+The app is deployed on [Firebase]("https://crud-jo.web.app/")
 
 ## Author
 Joel Ojerinde
